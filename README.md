@@ -14,10 +14,8 @@
 
 - [ ] **Objectives:**
 - Break out the project goal into more specific objectives
-- [insert]
-- [insert]
-- [insert]
-
+- Minimize the road accident due to human error
+- Provide clearer vision to pick lane during driver if the weather is bad
 
 ##  B. ABSTRACT 
 
