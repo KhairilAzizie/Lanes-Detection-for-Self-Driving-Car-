@@ -25,9 +25,7 @@ Detecting lane lines is a task for autonomous vehicles while driving on the road
 
 Image 1 show how lane detection works
 
-
-## C .Dataset
-## D .Project Structure
-## E .Result And Conclusion
-## F . Project Presentation
+## C .Project Structure
+## D .Result And Conclusion
+## E . Project Presentation
 
