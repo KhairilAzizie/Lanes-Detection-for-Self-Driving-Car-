@@ -28,18 +28,15 @@ Detecting lane lines while driving on the road is a task for autonomous vehicles
 Figure 1 shows how the AI  work to detect lane to pick
 
 
-## C.  DATASET
+
+## C.   PROJECT STRUCTURE
+
+
+## D.  RESULT AND CONCLUSION
 
 
 
-## D.   PROJECT STRUCTURE
-
-
-## E.  RESULT AND CONCLUSION
-
-
-
-## G.   PROJECT PRESENTATION 
+## E.   PROJECT PRESENTATION 
 
 
 
