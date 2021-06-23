@@ -38,9 +38,59 @@ C:\Users\BSSE\PycharmProjects\pythonProject
 
 
 
-## D.  IMPLEMENTATION,RESULT AND CONCLUSION
+## D.  IMPLEMENTATION,RESULT 
 
-The concept we used to implement the lane detection system is 
+Every image is essentially a numpy array at the end of the day, with values containing pixel intensities, 0 denoting complete black(dark) and 1 denoting complete white(bright), considering a grayscale image.The technique that we use to run the system is :
+
+### 1.Gaussian Blur
+
+![Coding](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/gradient.png)
+
+Figure 2 show the gradient use to detect road line on the road.The above image shows a Strong gradient on the left and a Weak Gradient on the right.
+
+### 2. Canny Edge Detection
+
+As the name imply, it is an algorithm to detect edges in our image.A change in intensity of pixel will gives us an edge.
+
+![Coding](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/code%201.PNG)
+
+Figure 3 show the code used in implementing the canny edge detection.
+
+where blur represent blur image, 50 = low threshold ,150 = high treshold.
+
+### 3. Hough Transform
+
+After detecting the edge in the image using technique above, we will use the technique call hough transform to detect the lane lines.But before that, we need to find **region of interest** in our image by using certain code.
+
+once its done,we create a polygon over as shown 
+
+![Coding](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/gradient1.PNG)
+
+0000 represents the black pixels and 11111111 represents the white pixels, denoting the polygon. Now, we apply the bitwise_and in the original image and the mask to obtain the masked_image, which essentially will contain only the region on interest.
+
+![Coding](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/combine.PNG)
+
+### Result 
+
+The result that we get by combining the hough transform and gaussian blur able to make the system detect and highlight the line in the road lane as shown in the image below.
+
+From this.
+
+![Coding](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/actual.PNG)
+
+To this.
+
+![Coding](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/result.PNG)
+
+![Coding](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/result%202.PNG)
+
+
+
+
+
+
+
+
 
 
 ## E.   PROJECT PRESENTATION 
