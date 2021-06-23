@@ -30,10 +30,17 @@ Figure 1 shows how the AI  work to detect lane to pick
 
 
 ## C.   PROJECT STRUCTURE
+C:\Users\BSSE\PycharmProjects\pythonProject
+- ├── video
+- │   ├── input.mp4
+- │   ├── 
+- 1 directories, 2 files
 
 
-## D.  RESULT AND CONCLUSION
 
+## D.  IMPLEMENTATION,RESULT AND CONCLUSION
+
+The concept we used to implement the lane detection system is 
 
 
 ## E.   PROJECT PRESENTATION 
