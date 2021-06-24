@@ -5,12 +5,10 @@
 **Project Title:** Lanes Detection for Self Driving Car 
 
 **Team Members:** 
-- [Amirul Aizat Bin Rosli 	B031910118]
-- [Ahmad Firdaus bin Mohamad	B031910133]
-- [Mohammad Syauqi bin Abdul latiff	B031910393]
-- [Khairil Nur Azizie Bin Shafirudin	B031910249]
 
+![Coding](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/group%20member.PNG)
 
+our group member
 
 - [ ] **Objectives:**
 - Break out the project goal into more specific objectives
