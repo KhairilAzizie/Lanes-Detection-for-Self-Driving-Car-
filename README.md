@@ -33,6 +33,7 @@ C:\Users\BSSE\PycharmProjects\pythonProject
 - │   ├── input.mp4
 - 1 directories, 2 files
 
+one video example provided are the examples of dataset from.
 
 
 ## D.  IMPLEMENTATION,RESULT 
