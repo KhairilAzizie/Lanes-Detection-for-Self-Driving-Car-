@@ -93,6 +93,8 @@ To this.
 
 ## E.   PROJECT PRESENTATION 
 
+-Slide for our project
 
+-https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/Ai_.pptx
 
 
