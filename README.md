@@ -73,7 +73,7 @@ where blur represent blur image, 50 = low threshold ,150 = high treshold.
 
 After detecting the edge in the image using technique above, we will use the technique call hough transform to detect the lane lines.But before that, we need to find **region of interest** in our image by using certain code.
 
-once its done,we create a polygon over as shown 
+once its done,we create a rectangle(or a polygon) over as shown 
 
 ![Coding](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/gradient1.PNG)
 
