@@ -108,7 +108,10 @@ To this.
 
 ### Slide for our project
 
-![Slide](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/Ai_.pptx)
+[![Slide](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/thumbnail.PNG)](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/Ai_.pptx)
 
+### Our video Link
+
+[![name](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/thumbnail.PNG)](https://www.youtube.com/watch?v=gmw4NVVji70)
 
 
