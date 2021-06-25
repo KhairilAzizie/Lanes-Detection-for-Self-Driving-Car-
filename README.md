@@ -106,11 +106,11 @@ To this.
 
 ## E.   PROJECT PRESENTATION 
 
-### Slide for our project
+### Slide for our project (click on the image)
 
 [![Slide](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/thumbnail.PNG)](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/Ai_.pptx)
 
-### Our video Link
+### Our video Link (Click on the image)
 
 [![name](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/thumbnail.PNG)](https://www.youtube.com/watch?v=gmw4NVVji70)
 
