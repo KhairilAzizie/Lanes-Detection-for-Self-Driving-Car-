@@ -33,7 +33,7 @@ C:\Users\BSSE\PycharmProjects\pythonProject
 - │   ├── input.mp4
 - 1 directories, 2 files
 
-one video example provided are the examples of dataset from.
+one video example provided are the examples of dataset from. Since our project does not omit any output video, there is no video output that will be produced in our directory files.
 
 
 ## D.  IMPLEMENTATION,RESULT 
@@ -46,7 +46,20 @@ Every image is essentially a numpy array at the end of the day, with values cont
 
 Figure 2 show the gradient use to detect road line on the road.The above image shows a Strong gradient on the left and a Weak Gradient on the right.
 
-### 2. Canny Edge Detection
+proper explanantion on next section.
+
+### 2.Image Thresholding
+
+In this method, the pixel values of a grayscale image are assigned one of the two values representing black and white colors based on a threshold value. So, if the value of a pixel is greater than a threshold value, it is assigned one value, else it is assigned the other value.
+
+
+![Coding](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/masked%20image.png)
+
+As you can see above, after applying thresholding on the masked image, we get only the lane markings in the output image. Now we can easily detect these markings with the help of Hough Line Transformation.
+
+ 
+
+### 3. Canny Edge Detection
 
 As the name imply, it is an algorithm to detect edges in our image.A change in intensity of pixel will gives us an edge.
 
@@ -56,7 +69,7 @@ Figure 3 show the code used in implementing the canny edge detection.
 
 where blur represent blur image, 50 = low threshold ,150 = high treshold.
 
-### 3. Hough Transform
+### 4. Hough Transform
 
 After detecting the edge in the image using technique above, we will use the technique call hough transform to detect the lane lines.But before that, we need to find **region of interest** in our image by using certain code.
 
@@ -93,8 +106,9 @@ To this.
 
 ## E.   PROJECT PRESENTATION 
 
--Slide for our project
+### Slide for our project
 
--https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/Ai_.pptx
+![Slide](https://github.com/KhairilAzizie/Lanes-Detection-for-Self-Driving-Car-/blob/main/Lane%20Line/Ai_.pptx)
+
 
 
